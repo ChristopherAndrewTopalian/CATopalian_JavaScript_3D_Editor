@@ -1,6 +1,8 @@
 # CATopalian JavaScript 3D Editor
 A JavaScript 3D Editor that uses Babylon.js to create 3D objects in a 3D environment.
 
+VIDEO: https://www.youtube.com/watch?v=iqjjMmaAqMQ
+
 ![screenshot001](src/media/textures/screenshots/001.PNG)
 
 ![screenshot002](src/media/textures/screenshots/002.PNG)

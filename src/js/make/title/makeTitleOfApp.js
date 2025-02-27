@@ -18,7 +18,7 @@ function makeTitleOfApp()
     // titleOfApp
     let titleOfApp = ce('a');
     titleOfApp.href =
-    'https://github.com/christophertopalian/topalian_javascript_3d_editor'
+    'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_3D_Editor'
     titleOfApp.target = '_blank';
     titleOfApp.textContent = 'CATopalian JavaScript 3D Editor';
     titleContainer.append(titleOfApp);
