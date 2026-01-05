@@ -5,8 +5,10 @@ document.addEventListener("DOMContentLoaded", function()
     // get the canvas element
     let canvas = ge("renderCanvas");
 
-    // create the Babylon.js engine
-    let engine = new BABYLON.Engine(canvas, true, { antialias: true });
+    // 'true' as the 4th parameter in the Engine constructor for crisp edges and  textures
+    // the fourth parameter is adaptToDeviceRatio
+    // this makes textures and edges look very clean
+    let engine = new BABYLON.Engine(canvas, true, null, true);
 
     // create the scene
     let scene = makeScene(engine, canvas);
@@ -31,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function()
 //----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
